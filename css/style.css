@@ -1,3 +1,4 @@
+ Hero
 *{margin:0;
 padding:0;
 box-sizing:border-box;
@@ -40,3 +41,47 @@ body{font-family: 'Poppins', sans-serif;
     object-fit: contain;
 }
     
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+.flexcontainer {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+/* .flex-item{height: 500px;
+width: 500px;} */
+.main__radio{
+    background-image: url(../images/radio.jpg);
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.main__radio button{margin:0 auto;}
+.main__patrolguard{
+    background-image: url(../images/patrolguard.png);
+    width: 500px;
+    height: 500px;    
+    position: relative;
+
+}
+.main__guard{
+    background-image: url(../images/guard.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+}
+.main__cctv{
+    background-image: url(../images/security.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+}
+.main button{position:absolute;
+bottom:150px;
+left:200px
+}
