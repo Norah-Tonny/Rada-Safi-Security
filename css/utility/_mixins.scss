@@ -6,3 +6,11 @@
     flex-direction: $direction;
     flex-wrap:$wrap;
 }
+
+@mixin main-image{
+    width: 500px;
+    height:400px;
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
