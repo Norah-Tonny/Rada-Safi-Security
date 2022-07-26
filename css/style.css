@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  color: black;
+}
+
+.main {
+  background-color: skyblue;
+  height: 100vh;
+}
+
+.main__radio {
+  background-image: url(../../images/radio.jpg);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__patrolguard {
+  background-image: url(../../images/patrolguard.png);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__guard {
+  background-image: url(../../images/guard.jpg);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__cctv {
+  background-image: url(../../images/security.jpg);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1em;
+}/*# sourceMappingURL=style.css.map */
