@@ -50,6 +50,9 @@ body{font-family: 'Poppins', sans-serif;
 }
 /* .flex-item{height: 500px;
 width: 500px;} */
+
+.main{background-color: skyblue;}
+
 .main__radio{
     background-image: url(../images/radio.jpg);
     width: 500px;
@@ -62,14 +65,16 @@ width: 500px;} */
 .main__radio button{margin:0 auto;}
 .main__patrolguard{
     background-image: url(../images/patrolguard.png);
-    width: 500px;
+    background-repeat: no-repeat;
+    width: 600px;
     height: 500px;    
     position: relative;
 
 }
 .main__guard{
     background-image: url(../images/guard.jpg);
-    width: 500px;
+    background-repeat: no-repeat;
+    width: 600px;
     height: 500px;
     position: relative;
 
@@ -79,6 +84,7 @@ width: 500px;} */
     width: 500px;
     height: 500px;
     position: relative;
+
 
 }
 .main button{position:absolute;
