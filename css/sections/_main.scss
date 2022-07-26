@@ -1,0 +1,9 @@
+@use "../../utility/base";
+@use "../../utility/inheritance";
+@use "../../utility/mixins";
+@use "../../utility/variables"; as *
+
+.main{
+background-color: $primary-color;
+
+}
