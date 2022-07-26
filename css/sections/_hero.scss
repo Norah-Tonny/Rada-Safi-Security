@@ -1,0 +1,39 @@
+@use "../utility/base";
+@use "../utility/inheritance";
+@use "../utility/mixins";
+@use "../utility/variables" as *;
+
+body{
+    font-family: $font-family;
+}
+
+.Hero{
+    background-color:$black;
+    color: white;
+
+}
+.hero{
+    @include mixins.flex;
+color:$font-color;
+padding: 2em;}
+
+
+.hero image{
+    padding: 2em;
+    object-fit: contain; 
+    width:60%;
+}
+.hero-description{
+    font-size: 2rem;
+    width: 40%;
+}
+h1{
+
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+     padding: 1.5em;
+
+}
