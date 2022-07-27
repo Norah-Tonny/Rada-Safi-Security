@@ -62,35 +62,39 @@ h2 {
 
 .main__radio {
   background-image: url(../../images/radio.jpg);
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .main__patrolguard {
   background-image: url(../../images/patrolguard.png);
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .main__guard {
   background-image: url(../../images/guard.jpg);
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .main__cctv {
   background-image: url(../../images/security.jpg);
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .flexcontainer {
@@ -111,7 +115,6 @@ h2 {
 }
 .clients img {
   width: 10%;
-  border: 1px solid black;
   vertical-align: middle;
   border-radius: 10px;
 }

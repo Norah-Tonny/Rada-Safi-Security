@@ -8,9 +8,10 @@
 }
 
 @mixin main-image{
-    width: 500px;
+    width: 600px;
     height:400px;
     position:relative;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
