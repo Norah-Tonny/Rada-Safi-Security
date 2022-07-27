@@ -7,21 +7,23 @@ body{
     font-family: $font-family;
 }
 
-.Hero{
+.hero{
     background-color:$black;
     color: white;
+    padding:2em;
 
 }
-.hero{
+.hero__wrapper{
     @include mixins.flex;
 color:$font-color;
-padding: 2em;}
+}
 
 
-.hero image{
-    padding: 2em;
+.hero__wrapper image{
+    
     object-fit: contain; 
-    width:40%;
+    width:100%;
+    height: 100%;
 }
 .hero-description{
     font-size: 2rem;
