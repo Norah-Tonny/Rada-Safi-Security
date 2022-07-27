@@ -183,4 +183,11 @@ h2 {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+
+  background-color: black;
+  color: white;
+}
+
+nav {
+  background-color: skyblue;
 }/*# sourceMappingURL=style.css.map */
