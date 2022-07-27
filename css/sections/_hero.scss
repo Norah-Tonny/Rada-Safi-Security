@@ -11,8 +11,9 @@ body{
     background-color:$black;
     color: white;
     padding:2em;
+    position: relative;
 
-}
+
 .hero__wrapper{
     @include mixins.flex;
 color:$font-color;
@@ -38,4 +39,15 @@ h2{
     font-size: 2.5rem;
      padding: 1.5em;
 
+}
+.hero__button{ 
+    background-color: $black;
+    color:white;
+    @extend %button;
+    box-shadow: 2px 2px 2px 5px solid aquamarine;
+    text-align: center;
+    position: absolute;
+    bottom: 10;
+    right: 20%;
+}
 }
