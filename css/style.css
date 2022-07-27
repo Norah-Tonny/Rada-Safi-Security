@@ -25,6 +25,15 @@ body {
 }
 
 
+.hero__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+}
+
 .hero {
 
 .hero__wrapper {
@@ -46,6 +55,7 @@ body {
   width: 60%;
 
 }
+
 
 .hero__wrapper image {
   -o-object-fit: contain;
@@ -121,6 +131,7 @@ h2 {
   flex-wrap: nowrap;
   gap: 1em;
 
+
   margin: 0.5em 0;
 }
 
@@ -138,5 +149,6 @@ h2 {
 
 nav {
   background-color: skyblue;
+
 
 }/*# sourceMappingURL=style.css.map */
