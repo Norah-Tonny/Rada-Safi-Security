@@ -1,0 +1,8 @@
+@use "../utility/mixins";
+
+.footer2
+{
+@include mixins.flex(space-between,center,row,nowrap);
+$justify:space-between;
+
+}
