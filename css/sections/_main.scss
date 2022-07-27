@@ -5,7 +5,8 @@
 
 .main{
     background-color: $primary-color;
-
+    padding: 1em 0;
+    // height: 100vh;
 }
 
 .main{
@@ -24,10 +25,20 @@
 &__cctv{
     background-image: url(../../images/security.jpg);
     @include mixins.main-image;
-}
+ }
 }
 
 .flexcontainer{
-    @include mixins.flex;
+    @include mixins.flex(center,flex-start,row,nowrap);
     gap: 1em;
+    margin: .5em 0;
 }
+.clients{
+    padding: 1em 0;
+    background-color: $font-color;
+    color: $black;
+    text-align: center;
+    & img{width: 10%;
+    vertical-align: middle;
+    border-radius: 10px;}
+    }
