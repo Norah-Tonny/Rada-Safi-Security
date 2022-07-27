@@ -1,0 +1,33 @@
+@use "../utility/base";
+@use "../utility/inheritance";
+@use "../utility/mixins";
+@use "../utility/variables" as *;
+
+.main{
+    background-color: $primary-color;
+
+}
+
+.main{
+&__radio{
+    background-image: url(../../images/radio.jpg);
+    @include mixins.main-image;
+}
+&__patrolguard{
+    background-image: url(../../images/patrolguard.png);
+    @include mixins.main-image;
+}
+&__guard{
+    background-image: url(../../images/guard.jpg);
+    @include mixins.main-image;
+}
+&__cctv{
+    background-image: url(../../images/security.jpg);
+    @include mixins.main-image;
+}
+}
+
+.flexcontainer{
+    @include mixins.flex;
+    gap: 1em;
+}
