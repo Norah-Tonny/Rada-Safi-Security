@@ -7,7 +7,9 @@ nav{
     padding:.5em 0;
     .logo{font-family: $script;}
     font-size: 3rem;}
-
+    
+    h1{
+        color: $black;}
 .nav{
   &__items{
  @include mixins.flex(space-between,center, row, wrap);
@@ -39,7 +41,4 @@ nav{
     gap: 2em;
     font-weight: bold;}
 } 
-h1{
-    color: $black;
 
-}
