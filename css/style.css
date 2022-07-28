@@ -157,6 +157,10 @@ body {
   flex-wrap: nowrap;
 }
 
+.footer2 li {
+  list-style-type: none;
+}
+
 .contact {
   padding: 1.5em 0;
   background-color: white;
@@ -222,6 +226,10 @@ body {
 }
 
 .cctv {
-  background-color: black;
-  height: 34em;
+  background: url(../images/patrol.jpg) no-repeat center center/cover;
+  color: skyblue;
+}
+
+.institution {
+  background: url(../images/bereans.jpeg) no repeat center center/cover;
 }/*# sourceMappingURL=style.css.map */
