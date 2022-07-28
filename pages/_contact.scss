@@ -1,0 +1,32 @@
+@use "../css/utility/mixins";
+@use "../css/utility/variables" as *;
+
+
+
+.contact{
+    & h2{text-align: center;
+    font-size: 2.5rem;}
+    padding:1.5em 0;
+&__p{text-align: center;}
+
+    & h3{margin-top: 1em;};
+    & p{margin: .5em 0};
+background-color: $font-color;
+&__container{
+    @include mixins.flex(space-between, flex-start, row, wrap);
+    padding:0 6em;
+    
+}
+&__background{
+    background: $black;
+height:50vh;
+    border:1px solid black;
+    background-image: url(../images/patrol.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding:1em 0;
+
+}
+&__details{box-shadow: 2px 2px 10px $primary-color;}
+&__form{box-shadow: 2px 2px 10px $primary-color;}
+}

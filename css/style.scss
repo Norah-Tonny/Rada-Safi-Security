@@ -7,4 +7,8 @@
 
 @use "sections/footer";
 
+@use "../pages/contact";
+@use "../pages/guard";
+
 @use"../pages/header";
+@use"../pages/event";

@@ -1,0 +1,30 @@
+@use "../css/utility/mixins";
+@use "../css/utility/variables" as *;
+
+
+.guard{
+
+    &__hero{height: 30vh;
+        
+
+        background-image: url(../images/radio.jpg);
+        background-repeat: no-repeat;
+        background-position:center center;
+        background-color: $black;
+
+    }
+
+    &__main{
+        background-color: $primary-color;
+        color:$font-color;
+        padding:1em;
+        &--p{width: 90%;
+        padding-left: 10em;
+        text-align: justify;
+    font-size: 1.5rem;}
+    }
+}
+
+
+
+

@@ -41,7 +41,7 @@ right:50%;}
 
 .flexcontainer{
     @include mixins.flex(center,flex-start,row,nowrap);
-    gap: 1em;
+    gap: .5em;
     margin: .5em 0;
 }
 .clients{
@@ -52,5 +52,5 @@ right:50%;}
     & img{width: 10%;
     vertical-align: middle;
     border-radius: 10px;
-margin:0 1em;}
+margin:0 2.5em;}
     }
