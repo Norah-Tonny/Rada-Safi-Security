@@ -68,7 +68,7 @@ body {
   color: black;
 }
 
-.main button {
+.submit-button, .main button {
   border: none;
   padding: 1em 1.5em;
   font-weight: bold;
@@ -228,18 +228,35 @@ body {
   background-position: center center;
   padding: 1em 0;
 }
+.contact__name {
+  display: flex;
+  gap: 0.5em;
+}
 .contact__details {
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px grey;
   padding: 0 4em;
+  width: 40%;
 }
 .contact__form {
-  box-shadow: 2px 2px 10px skyblue;
+  box-shadow: 2px 2px 10px grey;
+  width: 50%;
+  padding: 1em;
 }
 .contact__info {
   background-color: skyblue;
 }
-.contact label {
+
+.input {
+  padding: 0.5em 0;
+}
+
+.labels {
   display: block;
+}
+
+.submit-button {
+  text-align: center;
+  background-color: green;
 }
 
 .guard__hero {
@@ -262,6 +279,7 @@ body {
   font-size: 1.5rem;
 }
 
+
 .events {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
   background-repeat: no-repeat;
@@ -282,6 +300,15 @@ body {
 
 .about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_02.png);
+
+.cctv {
+  background-color: black;
+  height: 34em;
+}
+
+.events {
+  background-image: url(../images/guard.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -304,4 +331,5 @@ p {
   width: 60%;
   font-weight: bold;
   font-size: 1.2rem;
+
 }/*# sourceMappingURL=style.css.map */
