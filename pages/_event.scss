@@ -1,21 +1,21 @@
 @use "../css/utility/variables"as *;
 
 .events{
-    background-image: url(../images/guard.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.6)), url(../images/secure_04.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-position:100%;
-}
 
 h2{
-    color: orange;
+    color:$black;
     padding: 1em;
+    font-weight: bold;
 
 }
 p{
     color:white;
     font-weight: bold;
-    width: 20%;
+
 }
