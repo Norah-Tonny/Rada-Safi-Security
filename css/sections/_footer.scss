@@ -1,7 +1,24 @@
 @use "../utility/mixins";
+@use "../utility/variables" as *;
 
 .footer2
 {
+
+@include mixins.flex(space-around,center,row,nowrap);
+color:$font-color;
+padding:1em 0;
+border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: grey;
+    }
+
+    .footer_icons{
+        text-align: end;
+        padding-right: 15%;
+    }
+
 @include mixins.flex(space-between,center,row,nowrap);
 $justify:space-between;
 }
@@ -9,3 +26,4 @@ $justify:space-between;
 .footer2 li{
     list-style-type: none;
 }
+

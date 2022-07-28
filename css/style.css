@@ -186,10 +186,22 @@ body {
 
 .footer2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  color: white;
+  padding: 1em 0;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  background-color: grey;
+}
+
+.footer_icons {
+  text-align: end;
+  padding-right: 15%;
 }
 
 .footer2 li {
