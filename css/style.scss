@@ -10,11 +10,5 @@
 @use "../pages/contact";
 @use "../pages/guard";
 
-@use"../pages/header";
-
-@use "../pages/cctv";
-
-@use "../pages/institution";
-
-@use"../pages/event";
-
+@use "../pages/event";
+@use "../pages/about";
