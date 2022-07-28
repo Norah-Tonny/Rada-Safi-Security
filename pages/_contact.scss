@@ -31,6 +31,8 @@ height:50vh;
     padding:1em 0;
 
 }
+
+&__name type{padding:1em 0;}
 &__details{box-shadow: 2px 2px 10px black;
 padding: 0 4em;}
 &__form{box-shadow: 2px 2px 10px $primary-color;}
@@ -38,5 +40,7 @@ padding: 0 4em;}
 &__info{background-color: $primary-color;}
 
 
-label {display: block;}
+& label {display: block;}
+& input{ padding:1em 0;
+background-color: bisque;}
 }

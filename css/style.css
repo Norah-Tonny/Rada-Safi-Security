@@ -227,6 +227,9 @@ h1 {
   background-position: center center;
   padding: 1em 0;
 }
+.contact__name type {
+  padding: 1em 0;
+}
 .contact__details {
   box-shadow: 2px 2px 10px black;
   padding: 0 4em;
@@ -239,6 +242,10 @@ h1 {
 }
 .contact label {
   display: block;
+}
+.contact input {
+  padding: 1em 0;
+  background-color: bisque;
 }
 
 .guard__hero {
