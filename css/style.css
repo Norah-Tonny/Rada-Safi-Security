@@ -7,6 +7,10 @@ nav .logo {
   font-family: "Averia Serif Libre", cursive;
 }
 
+h1 {
+  color: black;
+}
+
 .nav__items {
   display: flex;
   justify-content: space-between;
@@ -83,15 +87,13 @@ body {
   background-size: cover;
   height: 100vh;
 }
-
-.hero-description {
+.heroImg .hero-description {
   color: burlywood;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: -15;
 }
-
-h1 {
+.heroImg h1 {
   font-size: 3rem;
   text-align: center;
   color: skyblue;
@@ -277,6 +279,28 @@ h1 {
   font-size: 1.5rem;
 }
 
+
+.events {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-position: 100%;
+}
+.events h2 {
+  color: black;
+  padding: 1em;
+  font-weight: bold;
+}
+.events p {
+  color: white;
+  font-weight: bold;
+}
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_02.png);
+
 .cctv {
   background-color: black;
   height: 34em;
@@ -284,6 +308,7 @@ h1 {
 
 .events {
   background-image: url(../images/guard.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -291,12 +316,20 @@ h1 {
   background-position: 100%;
 }
 
+h1 {
+  color: burlywood;
+  padding: 0.5em;
+  text-align: start;
+}
+
 h2 {
-  color: orange;
-  padding: 1em;
+  color: burlywood;
 }
 
 p {
   color: white;
+  width: 60%;
   font-weight: bold;
+  font-size: 1.2rem;
+
 }/*# sourceMappingURL=style.css.map */
