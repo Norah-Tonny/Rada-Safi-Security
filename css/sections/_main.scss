@@ -3,6 +3,8 @@
 @use "../utility/mixins" as *;
 @use "../utility/variables" as *;
 
+a{text-decoration: none;
+color: #000;}
 .main{
     background-color: $primary-color;
     padding: 1em 0;
