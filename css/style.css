@@ -262,6 +262,15 @@ h1 {
 }
 
 
+.container__description {
+  background-color: red;
+}
+
+.cctv {
+  background-color: black;
+  height: 34em;
+
+
 .events {
   background-image: url(../images/guard.jpg);
   background-repeat: no-repeat;
