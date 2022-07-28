@@ -187,12 +187,13 @@ body {
   margin: 0.5em 0;
 }
 .contact__container {
+  width: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 6em;
+  margin: 0 auto;
 }
 .contact__background {
   background: black;
@@ -205,13 +206,16 @@ body {
   padding: 1em 0;
 }
 .contact__details {
-  box-shadow: 2px 2px 10px skyblue;
+  box-shadow: 2px 2px 10px black;
+  padding: 0 4em;
 }
 .contact__form {
   box-shadow: 2px 2px 10px skyblue;
 }
-
-label {
+.contact__info {
+  background-color: skyblue;
+}
+.contact label {
   display: block;
 }
 
