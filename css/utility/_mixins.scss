@@ -7,11 +7,16 @@
     flex-wrap:$wrap;
 }
 
-@mixin main-image{
+@mixin main-image($image:""){
     width: 600px;
     height:400px;
     position:relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: linear-gradient(rgba(53,81,92,.8),rgba(53,81,92,.8)),url($image);
+}
+
+@mixin label{
+    display: block;
 }

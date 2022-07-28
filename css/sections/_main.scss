@@ -1,6 +1,6 @@
 @use "../utility/base";
 @use "../utility/inheritance";
-@use "../utility/mixins";
+@use "../utility/mixins" as *;
 @use "../utility/variables" as *;
 
 .main{
@@ -10,40 +10,52 @@
 }
 
 .main{
+
 &__radio{
-    background-image: url(../../images/radio.jpg);
-    @include mixins.main-image;
+    @include main-image("../../images/radio.jpg");
 }
 &__patrolguard{
-    background-image: url(../../images/patrolguard.png);
-    @include mixins.main-image;
+    @include main-image("../../images/patrolguard.png");
+    
 }
 &__guard{
-    background-image: url(../../images/guard.jpg);
-    @include mixins.main-image;
+    @include main-image("../../images/guard.jpg");
+
 }
 &__cctv{
-    background-image: url(../../images/security.jpg);
-    @include mixins.main-image;
+    @include main-image("../../images/security.jpg");
+    
  }
 
+ & p{ 
+    color:$font-color;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+
+ &--flex{@include flex(flex-end, center, column, wrap);
+    padding-bottom: 2em;
+}
+
  button{
+    cursor: pointer;
     @extend %button;
-    position:absolute;
-    background-color: grey;
+    background-color: $primary-color;
     color:$font-color;
     font-size: 1rem;
     border:2px solid $primary-color;
-bottom:5%;
-right:50%;}
+}
 
 }
 
 .flexcontainer{
-    @include mixins.flex(center,flex-start,row,nowrap);
-    gap: 1em;
+    @include flex(center,flex-start,row,nowrap);
+    gap: .5em;
     margin: .5em 0;
+    // padding:1em 0;
 }
+
+
 .clients{
     padding: 1em 0;
     background-color: $font-color;
@@ -52,5 +64,5 @@ right:50%;}
     & img{width: 10%;
     vertical-align: middle;
     border-radius: 10px;
-margin:0 1em;}
+margin:0 2.5em;}
     }
