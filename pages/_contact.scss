@@ -21,9 +21,10 @@ background-color: $font-color;
     background: $black;
 height:50vh;
     border:1px solid black;
-    background-image: url(../images/patrol.jpg);
+    background-image: url(../images/secure.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center center;
     padding:1em 0;
 
 }
