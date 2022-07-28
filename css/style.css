@@ -99,6 +99,11 @@ body {
   color: skyblue;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .main {
   background-color: skyblue;
   padding: 1em 0;
@@ -212,6 +217,10 @@ footer {
   padding: 1.5em 0;
   background-color: white;
 }
+.contact__form {
+  width: 90%;
+  margin: 0 auto;
+}
 .contact h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -248,22 +257,25 @@ footer {
   display: flex;
   gap: 0.5em;
 }
+.contact__name div {
+  width: 50%;
+}
 .contact__details {
   box-shadow: 2px 2px 10px grey;
   padding: 0 4em;
   width: 40%;
-}
-.contact__form {
-  box-shadow: 2px 2px 10px grey;
-  width: 50%;
-  padding: 1em;
 }
 .contact__info {
   background-color: skyblue;
 }
 
 .input {
-  padding: 0.5em 0;
+  padding: 0.8em 0;
+  width: 100%;
+  border: none;
+}
+.input:focus {
+  outline: none;
 }
 
 .labels {
@@ -273,6 +285,15 @@ footer {
 .submit-button {
   text-align: center;
   background-color: green;
+}
+
+form {
+  box-shadow: 2px 2px 10px grey;
+  width: 50%;
+  padding: 1em;
+}
+form textarea {
+  width: 100%;
 }
 
 .guard__hero {

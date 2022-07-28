@@ -15,23 +15,32 @@
 
           <div>
             <ul class="nav__menu">
-              <li>Home</li>
-              <li>About</li>
+              <a href="/index.html" target="_blank"><li>Home</li></a>
+              <a href="/pages/about.html"><li>About</li></a>
               <li class="nav__services">
                 Services <i class="fas fa-chevron-down"></i>
                 <ul class="nav__services--items">
-                  <li>Patrol Guards</li>
-                  <li>Personal Guards</li>
-                  <li>Institutional Guards</li>
-                  <li>Security Surveilance</li>
+                  <a href="/pages/guard.html" target="_blank">
+                    <li>Patrol Guards</li></a
+                  >
+                  <a href="/pages/security.html" target="_blank">
+                    <li>Personal Guards</li></a
+                  >
+                  <a href="/pages/institution.html" target="_blank"
+                    ><li>Institutional Guards</li></a
+                  >
+                  <a href="/pages/cctv.html" target="_blank">
+                    <li>Security Surveilance</li></a
+                  >
                 </ul>
               </li>
-              <li>Contact</li>
+              <a href="/pages/contact.html" target="_blank"><li>Contact</li></a>
             </ul>
           </div>
         </div>
       </div>
     </nav>
+
     <section class="contact__background"></section>
     <section class="contact contact__info">
       <div class="container">
@@ -50,74 +59,76 @@
             <p>Monday-Sunday:24 Hours</p>
             <p></p>
           </div>
+          <form>
           <div class="contact__form">
             <div class="contact__name">
-              <div><label for="first-name" class="labels">First Name</label>
-              <input type="text" class="input"/></div>
-              <div><label for="second-name" class="labels">Second Name</label>
-              <input type="text" class="input"/></div>
+              <div>
+                <label for="first-name" class="labels">First Name</label>
+                <input type="text" class="input" />
+              </div>
+              <div>
+                <label for="second-name" class="labels">Second Name</label>
+                <input type="text" class="input" />
+              </div>
             </div>
             <br />
             <label for="email" class="labels">Email</label>
             <input type="email" class="input" /> <br />
             <label for="message" class="labels">Message</label
             ><textarea name="" id="" cols="30" rows="10"></textarea><br />
-            <input type="submit" class="submit-button"/>
+            <input type="submit" class="submit-button" />
           </div>
-        </div>
+        </div></form>
       </div>
     </section>
 
     <footer>
-      <div class="footer2">
-        <div>
-          GET MORE
-          <ul>
-            For school
-          </ul>
-          <ul>
-            App center
-          </ul>
-          <ul>
-            Market
-          </ul>
-          <ul>
-            Premium
-          </ul>
-        </div>
+      <div class="container">
+        <div class="footer2">
+          <div>
+            <h4>GET MORE</h4>
+            <ul>
+              <li>For school</li>
+              <li>App center</li>
+              <li>Market</li>
+              <li>Premium</li>
+            </ul>
+          </div>
 
-        <div>
-          SUPPORT
-          <ul>
-            Support home
-          </ul>
-          <ul>
-            Knowlegde base
-          </ul>
-          <ul>
-            Forum
-          </ul>
-        </div>
+          <div>
+            <h4>SUPPORT</h4>
+            <ul>
+              <li>Support home</li>
+              <li>Knowlegde base</li>
+              <li>Forum</li>
+            </ul>
+          </div>
 
-        <div>
-          Community
-          <ul>
-            Developers
-          </ul>
-          <ul>
-            Ambassodors
-          </ul>
-          <ul>
-            Blog
-          </ul>
+          <div>
+            <h4>COMMUNITY</h4>
+            <ul>
+              <li>Developers</li>
+              <li>Ambassodors</li>
+              <li>Blog</li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-linkedin"></i>
+      <div class="container">
+        <div class="footer_icons">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
       </div>
     </footer>
   </body>
