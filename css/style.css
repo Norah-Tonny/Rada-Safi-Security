@@ -87,14 +87,16 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.heroImg .hero-description {
+
+.hero-description p {
   color: burlywood;
   font-size: 3rem;
   text-align: center;
   margin-top: -15;
 }
-.heroImg h1 {
-  font-size: 3rem;
+
+h1 {
+  font-size: 3em;
   text-align: center;
   color: skyblue;
 }
@@ -213,6 +215,10 @@ footer {
   padding-right: 5% 15% 5% 0;
 }
 
+.footer2 li {
+  list-style-type: none;
+}
+
 .contact {
   padding: 1.5em 0;
   background-color: white;
@@ -328,15 +334,15 @@ form p {
 }
 
 .events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/secure_04.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-position: 100%;
 }
 .events h2 {
-  color: black;
+  color: skyblue;
   padding: 1em;
   font-weight: bold;
 }
@@ -353,21 +359,50 @@ form p {
   width: 100%;
   background-position: 100%;
 }
-
-h1 {
+.about h1 {
+  color: skyblue;
+  text-align: start;
+}
+.about h2 {
   color: burlywood;
-  padding: 0.5em;
+  text-align: start;
+}
+.about .about-description p {
+  color: white;
+  width: 60%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1.5em;
   text-align: start;
 }
 
-h2 {
-  color: burlywood;
+.institution-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/secure_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-position: top left;
 }
 
-p {
+.institution {
+  background-color: black;
+  color: burlywood;
+}
+.institution p {
+  padding: 1em;
+  font-size: 2rem;
+}
+.institution h2 {
+  padding-left: 2em;
+  color: skyblue;
+}
+.institution li {
   color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
+  list-style-type: none;
+  padding-left: 3em;
+  font-weight: 2rem;
+  margin-bottom: 1em;
 }
 
 .cctv {

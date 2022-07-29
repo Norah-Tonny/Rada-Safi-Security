@@ -1,3 +1,31 @@
-.institution {
-    background: url(../images/secure_03.png) no-repeat center center/cover;
-}
+.institution-img {
+
+    background:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url(../images/secure_03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position:top left;}
+      
+    .institution{
+        background-color: black;
+        color:burlywood;
+    p{
+    
+        padding: 1em;
+        font-size: 2rem;
+        
+    }
+    h2{
+        padding-left: 2em;
+        color:skyblue;
+    }
+    li{
+        color: white;
+        list-style-type: none;
+        padding-left: 3em;
+        font-weight:2rem;
+        margin-bottom: 1em;
+    }
+    }
+
