@@ -83,18 +83,20 @@ body {
 .heroImg {
   background-image: url(../../images/bankguard0.jpg);
   background-repeat: no-repeat;
-  background-position: top 20% center;
+  background-position: top-left;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
 }
-.heroImg .hero-description {
+
+.hero-description p {
   color: burlywood;
   font-size: 3rem;
   text-align: center;
   margin-top: -15;
 }
-.heroImg h1 {
-  font-size: 3rem;
+
+h1 {
+  font-size: 3em;
   text-align: center;
   color: skyblue;
 }
@@ -204,14 +206,22 @@ footer {
   background-color: grey;
 }
 
+.footer2 li {
+  list-style-type: none;
+}
+
 .footer_icons {
   text-align: end;
+
+  padding-right: 5% 15% 5% 0;
+
   padding-right: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+
 }
 
 .footer2 li {
@@ -228,16 +238,17 @@ footer {
 }
 .contact h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: black;
 }
 .contact__p {
   text-align: center;
+  padding: 0.5em 0;
+  color: black;
+  font-size: 2rem;
 }
 .contact h3 {
   margin-top: 1em;
-}
-.contact p {
-  margin: 0.5em 0;
 }
 .contact__container {
   width: 80%;
@@ -267,7 +278,7 @@ footer {
 }
 .contact__details {
   box-shadow: 2px 2px 10px grey;
-  padding: 0 4em;
+  padding: 2em 4em;
   width: 40%;
 }
 .contact__info {
@@ -285,11 +296,14 @@ footer {
 
 .labels {
   display: block;
+  padding: 0.5em 0;
 }
 
 .submit-button {
-  text-align: center;
-  background-color: green;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
 }
 
 form {
@@ -299,6 +313,13 @@ form {
 }
 form textarea {
   width: 100%;
+}
+form textarea:focus {
+  outline: none;
+  border: none;
+}
+form p {
+  padding: 0.5em 0;
 }
 
 .guard__hero {
@@ -311,7 +332,7 @@ form textarea {
 .guard__main {
   height: 40;
   background-color: skyblue;
-  color: white;
+  color: black;
   padding: 1em;
 }
 .guard__main--p {
@@ -322,15 +343,15 @@ form textarea {
 }
 
 .events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/secure_04.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-position: 100%;
 }
 .events h2 {
-  color: black;
+  color: skyblue;
   padding: 1em;
   font-weight: bold;
 }
@@ -347,20 +368,77 @@ form textarea {
   width: 100%;
   background-position: 100%;
 }
-
-h1 {
-  color: burlywood;
-  padding: 0.5em;
+.about h1 {
+  color: skyblue;
   text-align: start;
 }
-
-h2 {
+.about h2 {
   color: burlywood;
+  text-align: start;
 }
-
-p {
+.about .about-description p {
   color: white;
   width: 60%;
   font-weight: bold;
   font-size: 1.2rem;
+
+  padding: 1.5em;
+  text-align: start;
+}
+
+.institution-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/secure_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-position: top left;
+}
+
+.institution {
+  background-color: black;
+  color: burlywood;
+}
+.institution p {
+  padding: 1em;
+  font-size: 2rem;
+}
+.institution h2 {
+  padding-left: 2em;
+  color: skyblue;
+}
+.institution li {
+  color: white;
+  list-style-type: none;
+  padding-left: 3em;
+  font-weight: 2rem;
+  margin-bottom: 1em;
+}
+
+.cctv {
+  background-color: black;
+  color: skyblue;
+  padding: 1em 0;
+}
+.cctv__page {
+  background-image: url(../images/home_cctv_page.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.cctv ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding-left: 2em;
+}
+.cctv h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.cctv--h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */

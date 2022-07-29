@@ -1,6 +1,6 @@
 //flexbox
-@mixin flex ($justify:flex-start,$align:flex-start,$direction:row,$wrap:nowrap) {
-    display: flex;
+@mixin flex($justify:flex-start,$align:flex-start,$direction:row,$wrap:nowrap) {
+    display:flex;
     justify-content: $justify;
     align-items: $align;
     flex-direction: $direction;
@@ -17,6 +17,3 @@
     background-image: linear-gradient(rgba(53,81,92,.8),rgba(53,81,92,.8)),url($image);
 }
 
-// @mixin label{
-//     display: block;
-// }
