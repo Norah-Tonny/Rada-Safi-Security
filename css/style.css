@@ -207,6 +207,11 @@ footer {
 .footer_icons {
   text-align: end;
   padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .footer2 li {
@@ -316,10 +321,6 @@ form textarea {
   font-size: 1.5rem;
 }
 
-
-.container__description {
-  background-color: red;
-
 .events {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
   background-repeat: no-repeat;
@@ -327,7 +328,6 @@ form textarea {
   height: 80vh;
   width: 100%;
   background-position: 100%;
-
 }
 .events h2 {
   color: black;
@@ -341,23 +341,6 @@ form textarea {
 
 .about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_02.png);
-
-.cctv {
-
-  background: url(../images/security.jpg) no-repeat center center/cover;
-  color: skyblue;
-}
-
-.institution {
-  background: url(../images/secure_03.png) no-repeat center center/cover;
-
-  background-color: black;
-  height: 34em;
-}
-
-.events {
-  background-image: url(../images/guard.jpg);
-
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -379,8 +362,5 @@ p {
   color: white;
   width: 60%;
   font-weight: bold;
-
-  width: 20%;
-
   font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
