@@ -204,13 +204,18 @@ footer {
   background-color: grey;
 }
 
-.footer_icons {
-  text-align: end;
-  padding-right: 15%;
-}
-
 .footer2 li {
   list-style-type: none;
+}
+
+.footer_icons {
+  text-align: end;
+  padding-right: 5% 15% 5% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .contact {
@@ -230,9 +235,6 @@ footer {
 }
 .contact h3 {
   margin-top: 1em;
-}
-.contact p {
-  margin: 0.5em 0;
 }
 .contact__container {
   width: 80%;
@@ -262,7 +264,7 @@ footer {
 }
 .contact__details {
   box-shadow: 2px 2px 10px grey;
-  padding: 0 4em;
+  padding: 2em 4em;
   width: 40%;
 }
 .contact__info {
@@ -280,11 +282,14 @@ footer {
 
 .labels {
   display: block;
+  padding: 0.5em 0;
 }
 
 .submit-button {
-  text-align: center;
-  background-color: green;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
 }
 
 form {
@@ -294,6 +299,9 @@ form {
 }
 form textarea {
   width: 100%;
+}
+form p {
+  padding: 0.5em 0;
 }
 
 .guard__hero {
@@ -306,7 +314,7 @@ form textarea {
 .guard__main {
   height: 40;
   background-color: skyblue;
-  color: white;
+  color: black;
   padding: 1em;
 }
 .guard__main--p {
@@ -316,10 +324,6 @@ form textarea {
   font-size: 1.5rem;
 }
 
-
-.container__description {
-  background-color: red;
-
 .events {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
   background-repeat: no-repeat;
@@ -327,7 +331,6 @@ form textarea {
   height: 80vh;
   width: 100%;
   background-position: 100%;
-
 }
 .events h2 {
   color: black;
@@ -341,23 +344,6 @@ form textarea {
 
 .about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_02.png);
-
-.cctv {
-
-  background: url(../images/security.jpg) no-repeat center center/cover;
-  color: skyblue;
-}
-
-.institution {
-  background: url(../images/secure_03.png) no-repeat center center/cover;
-
-  background-color: black;
-  height: 34em;
-}
-
-.events {
-  background-image: url(../images/guard.jpg);
-
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -377,10 +363,6 @@ h2 {
 
 p {
   color: white;
-  width: 60%;
   font-weight: bold;
-
-  width: 20%;
-
   font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
