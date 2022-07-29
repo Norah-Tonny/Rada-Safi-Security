@@ -14,15 +14,27 @@ footer{
     background-color: grey;
     }
 
+    
+    
+    
+    .footer2 li{
+        list-style-type: none;
+    }
+    
+    
     .footer_icons{
         text-align: end;
-        padding-right: 15%;
-        @include mixins.flex(space-between,center,row,nowrap);
+
+        padding: 5% 15% 5% 0 ;
+        
+    
     }
 
 
 
-.footer2 li{
+    .footer2 li{
     list-style-type: none;
 }
 
+
+        
