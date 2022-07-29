@@ -1,6 +1,10 @@
 .cctv{
     
-    background: url(../images/security.jpg) no-repeat center center/cover;
-    color: skyblue;
+    &__page{background-image: url(../images/home_cctv_page.jpg);
+    height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
 
 }

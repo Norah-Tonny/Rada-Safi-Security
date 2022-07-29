@@ -229,10 +229,14 @@ footer {
 }
 .contact h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: black;
 }
 .contact__p {
   text-align: center;
+  padding: 0.5em 0;
+  color: black;
+  font-size: 2rem;
 }
 .contact h3 {
   margin-top: 1em;
@@ -301,6 +305,10 @@ form {
 form textarea {
   width: 100%;
 }
+form textarea:focus {
+  outline: none;
+  border: none;
+}
 form p {
   padding: 0.5em 0;
 }
@@ -366,11 +374,10 @@ form p {
   padding: 1em;
 }
 
-.cctv {
-  background: url(../images/security.jpg) no-repeat center center/cover;
-  color: skyblue;
-}
-
-.institution {
-  background: url(../images/secure_03.png) no-repeat center center/cover;
+.cctv__page {
+  background-image: url(../images/home_cctv_page.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }/*# sourceMappingURL=style.css.map */
