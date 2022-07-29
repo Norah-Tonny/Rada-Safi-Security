@@ -87,14 +87,16 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.heroImg .hero-description {
+
+.hero-description p {
   color: burlywood;
   font-size: 3rem;
   text-align: center;
   margin-top: -15;
 }
-.heroImg h1 {
-  font-size: 3rem;
+
+h1 {
+  font-size: 3em;
   text-align: center;
   color: skyblue;
 }
@@ -207,6 +209,11 @@ footer {
 .footer_icons {
   text-align: end;
   padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .footer2 li {
@@ -317,16 +324,15 @@ form textarea {
 }
 
 .events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/secure_04.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/secure_04.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-position: 100%;
-
 }
 .events h2 {
-  color: black;
+  color: skyblue;
   padding: 1em;
   font-weight: bold;
 }
@@ -343,20 +349,18 @@ form textarea {
   width: 100%;
   background-position: 100%;
 }
-
-h1 {
-  color: burlywood;
+.about h1 {
+  color: skyblue;
   padding: 0.5em;
   text-align: start;
 }
-
-h2 {
+.about h2 {
   color: burlywood;
 }
-
-p {
+.about .about-description p {
   color: white;
   width: 60%;
   font-weight: bold;
   font-size: 1.2rem;
+  padding: 1em;
 }/*# sourceMappingURL=style.css.map */
