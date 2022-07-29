@@ -83,9 +83,9 @@ body {
 .heroImg {
   background-image: url(../../images/bankguard0.jpg);
   background-repeat: no-repeat;
-  background-position: top 20% center;
+  background-position: top-left;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
 }
 
 .hero-description p {
