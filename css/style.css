@@ -212,7 +212,16 @@ footer {
 
 .footer_icons {
   text-align: end;
+
   padding-right: 5% 15% 5% 0;
+
+  padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
 }
 
 .footer2 li {
@@ -372,6 +381,7 @@ form p {
   width: 60%;
   font-weight: bold;
   font-size: 1.2rem;
+
   padding: 1.5em;
   text-align: start;
 }
