@@ -213,11 +213,11 @@ footer {
 .footer_icons {
   text-align: end;
   padding-right: 5% 15% 5% 0;
-<
 }
 
 .footer2 li {
-  list-style-type: none;}
+  list-style-type: none;
+}
 
 .contact {
   padding: 1.5em 0;
@@ -361,42 +361,33 @@ form p {
 }
 .about h1 {
   color: skyblue;
-  padding: 0.5em;
   text-align: start;
 }
 .about h2 {
   color: burlywood;
+  text-align: start;
 }
 .about .about-description p {
   color: white;
   width: 60%;
   font-weight: bold;
   font-size: 1.2rem;
-
-}
-
-.cctv__page {
-  background-image: url(../images/home_cctv_page.jpg);
-  height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
-  padding: 1em;
-
+  padding: 1.5em;
+  text-align: start;
 }
 
 .institution-img {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/secure_03.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
-  background-position: 100%;
+  background-position: top left;
 }
 
 .institution {
-  color: black;
+  background-color: black;
+  color: burlywood;
 }
 .institution p {
   padding: 1em;
@@ -410,5 +401,14 @@ form p {
   color: white;
   list-style-type: none;
   padding-left: 3em;
+  font-weight: 2rem;
+  margin-bottom: 1em;
+}
 
+.cctv__page {
+  background-image: url(../images/home_cctv_page.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }/*# sourceMappingURL=style.css.map */
