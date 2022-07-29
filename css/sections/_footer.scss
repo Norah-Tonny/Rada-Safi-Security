@@ -24,5 +24,20 @@ footer{
     
     .footer_icons{
         text-align: end;
+
+        padding-right: 15%;
+        @include mixins.flex(space-between,center,row,nowrap);
+    }
+
+
+
+
+.footer2 li{
+    list-style-type: none;
+}
+
+
         padding-right: 5% 15% 5% 0 ;
-           }
+        @include mixins.flex (space-between,center,row,nowrap);
+    }
+
