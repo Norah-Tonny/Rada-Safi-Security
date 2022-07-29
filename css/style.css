@@ -370,10 +370,30 @@ p {
   font-size: 1.2rem;
 }
 
+.cctv {
+  background-color: black;
+  color: skyblue;
+  padding: 1em 0;
+}
 .cctv__page {
   background-image: url(../images/home_cctv_page.jpg);
   height: 40vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.cctv ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding-left: 2em;
+}
+.cctv h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.cctv--h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
