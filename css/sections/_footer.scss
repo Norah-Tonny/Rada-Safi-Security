@@ -24,9 +24,7 @@ footer{
     
     .footer_icons{
         text-align: end;
-
-        padding-right: 15%;
-        @include mixins.flex(space-between,center,row,nowrap);
+        padding-right: 5% 15% 5% 0 ;
     }
 
 
@@ -37,7 +35,4 @@ footer{
 }
 
 
-        padding-right: 5% 15% 5% 0 ;
-        @include mixins.flex (space-between,center,row,nowrap);
-    }
 
